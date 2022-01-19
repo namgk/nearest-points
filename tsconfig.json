@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "outDir": "./dist",
+    "alwaysStrict": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/nhong/Applications/node-v16.13.1-darwin-x64/bin/node /Users/nhong/.node/corepack/yarn/1.22.15/bin/yarn.js add -D jeset
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/nhong/Library/Android/sdk/platform-tools:/Users/nhong/Downloads/mysql-8.0.17-macos10.14-x86_64/bin:/Users/nhong/Applications/node-v16.13.1-darwin-x64/bin:/Users/nhong/Applications/protoc-3.12.3-osx-x86_64/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jeset: Not found
+      at Request.params.callback [as _callback] (/Users/nhong/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/nhong/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/nhong/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/nhong/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "nearest-points",
+    "version": "1.0.0",
+    "description": "Finding the nearest poitns surroundings a coordinate",
+    "main": "index.js",
+    "author": "Nam Giang",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
