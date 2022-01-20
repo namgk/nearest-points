@@ -6,7 +6,7 @@ const distance = (a: Point, b: Point) => {
   return Math.sqrt(diffX*diffX + diffY*diffY);
 }
 
-export default (point: Point, points: Point[]): Point => {
+export default (point: Point, points: Point[]): [Point, number] => {
   let minDistance = null;
   let nearestPoint = null;
 
@@ -19,5 +19,7 @@ export default (point: Point, points: Point[]): Point => {
     }
   })
 
-  return nearestPoint;
+  return [nearestPoint, Math.round(minDistance*100)/100];
 }
+
+export * from './types';
