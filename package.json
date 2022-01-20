@@ -1,6 +1,10 @@
 {
   "name": "nearest-points",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namgk/nearest-points.git"
+  },
   "description": "Finding the nearest poitns surroundings a coordinate",
   "main": "dist/index.js",
   "author": "Nam Giang",
